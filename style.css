@@ -15,8 +15,8 @@
 body {
   height: 30%;
   width: 100%;
-  background: linear-gradient(hsl(198, 5%, 42%), hsla(0, 0%, 100%, 0)),
-    url(./images/aleksi-raisa-y-BIhyjjHv4-unsplash.jpg);
+  background: linear-gradient(hsl(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0)),
+    url(./images/dmitry-demidko-OG3A-ilG8AY-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
