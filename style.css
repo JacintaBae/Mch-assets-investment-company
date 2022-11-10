@@ -51,6 +51,7 @@ li {
   width: 250px;
   height: 200px;
   padding: 25px;
+  background-color: #404040;
 }
 .ip {
   display: flex;
