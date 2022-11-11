@@ -1,120 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-/* body{
-  background-image: url(./images/pierre-borthiry-peiobty-vBCVcWUyvyM-unsplash.jpg) ;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  
-} */
-body {
-  height: 30%;
-  width: 100%;
-  background: linear-gradient(hsl(198, 5%, 42%), hsla(0, 0%, 100%, 0)),
-    url(./images/dmitry-demidko-OG3A-ilG8AY-unsplash.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  font-family: "Roboto", sans-serif;
-}
-.container .translate {
-  background-color: #404040;
-  height: 100px;
-}
-.container .translate ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 15px;
-}
-li {
-  list-style-type: none;
-}
-
-.body .about {
-  text-align: center;
-}
-.investment {
-  text-align: center;
-  font-size: 2rem;
-  color: yellow;
-  margin: 20px;
-}
-.ip .ips {
-  border: 1px solid yellow;
-  width: 250px;
-  height: 200px;
-  padding: 25px;
-  background-color:#404040 ;
-}
-.ip {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.ip .ips {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  font-family: "Roboto", sans-serif;
-}
-button {
-  width: 150px;
-  height: 50px;
-  border-radius: 50px;
-  border: none;
-  background-color: yellow;
-}
-.body {
-  margin: 15px;
-}
-.body .about {
-  font-size: 2rem;
-}
-
-.mch {
-  font-size: 2rem;
-}
-i {
-  color: yellow;
-}
-.body .providing {
-  text-align: center;
-}
-.lists {
-  padding: 15px;
-  margin: 15px;
-}
-.lists li {
-  list-style-image: url(./images/download.png);
-}
-.plans {
-  line-height: 25px;
-}
-.affliate {
-  text-align: center;
-  margin: 15px;
-  color: yellow;
-  font-size: 2rem;
-}
-.aff {
-  margin: 15px;
-}
-.plans .arrowdown {
-  display: none;
-}
-@media only screen and (max-width: 600px) {
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
   .ip {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+  }
+  body {
+    height: 30%;
+    width: 100%;
+    background: linear-gradient(hsl(198, 5%, 42%), hsla(0, 0%, 100%, 0)),
+      url(./images/dmitry-demidko-OG3A-ilG8AY-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "Roboto", sans-serif;
   }
 
   .ip .ips {
@@ -151,6 +56,75 @@ i {
   .ip .aff{
     line-height: 25px;
   }
+  .container .translate {
+    background-color: #404040;
+    height: 100px;
+  }
+  li {
+    list-style-type: none;
+  }
   
-}
+  .body .about {
+    text-align: center;
+  }
+  .investment {
+    text-align: center;
+    font-size: 2rem;
+    color: yellow;
+    margin: 20px;
+  }
+  .ip .ips {
+    border: 1px solid yellow;
+    width: 250px;
+    height: 200px;
+    padding: 25px;
+    background-color:#404040 ;
+  }
+  .ip {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .body {
+    margin: 15px;
+  }
+  .body .about {
+    font-size: 2rem;
+  }
+  
+  .mch {
+    font-size: 2rem;
+    text-align: center;
+  }
+  i {
+    color: yellow;
+  }
+  .body .providing {
+    text-align: center;
+  }
+  .lists {
+    padding: 15px;
+    margin: 15px;
+  }
+  .lists li {
+    list-style-image: url(./images/download.png);
+  }
+  .plans {
+    line-height: 25px;
+  }
+  .affliate {
+    text-align: center;
+    margin: 15px;
+    color: yellow;
+    font-size: 2rem;
+  }
+  .aff {
+    margin: 15px;
+  }
+  .plans .ips{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
